@@ -1,0 +1,77 @@
+/* SETTING DEFAULTS */
+
+*{
+  margin: 0px;
+  padding: 0px;
+  font-family: "Teachers", san-serif;
+}
+
+/* STYLE SECTIONING TAGS */
+body {
+ background-color: #7699D4; 
+ text-align: center;
+}
+
+/* STYLE TEXT */
+
+h1 {
+  color: black;
+  text-align: center;
+  padding: 10px;
+}
+
+h2 {
+  text-align: center;
+  padding: 30px;
+}
+
+p {
+  color: black;
+  text-align: left;
+  margin: 5px;
+}
+
+main {
+  margin: 20px;
+}
+
+#introText {
+  border: 3px dashed navy;
+  padding: 10px;
+}
+
+/* STYLE IMAGES */
+
+img{
+  max-width: 75%;
+  border: 3px solid black;
+  margin: 5px;
+}
+
+.portfolioPhotos {
+  border-radius: 15%;
+}
+
+/* STYLE NAV BAR */
+
+ul {
+  list-style-type: none;
+  background-color: #003046;
+  overflow: hidden;
+  padding: 10px;
+}
+
+li {
+  display: inline;
+}
+
+li a {
+  color: white;
+  text-decoration: none;
+  padding: 20px;
+}
+
+li a:hover {
+  background-color: #98DDFB;
+  color: black;
+}
